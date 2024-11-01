@@ -1,0 +1,91 @@
+.waze-admin .ui-accordion .ui-accordion-content{
+    width: auto;
+    display: block;
+    height: auto !important;
+}
+.waze-admin .ui-accordion .ui-accordion-content th{
+    text-align: left;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+}
+.waze-admin .ui-accordion .ui-accordion-content td{
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+}
+.waze-admin .ui-accordion .ui-accordion-content tr:nth-child(even) {background: #ececec}
+.waze-admin .ui-accordion .ui-accordion-content tr:nth-child(odd) {background: #FFF}
+
+.waze-admin .ui-accordion .ui-accordion-content td:first-child, .waze-admin .ui-accordion .ui-accordion-content th:first-child{
+    text-align: left;
+}
+.waze-admin .ui-state-active{
+    border: 0px;
+    background: #0085ba;
+}
+.waze-admin .ui-accordion .ui-accordion-header{
+    font-size: 17px;
+}
+.waze-admin h2{
+    color: #444;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0;
+} 
+
+
+.sm1waze-taxonomy .form-table {
+    width: auto;
+	margin-bottom:30px;
+}
+.sm1waze-cpt .form-table {
+    width: auto;
+}
+.sm1waze-taxonomy .form-table th {
+    vertical-align: top;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    line-height: 1.3;
+    font-weight: 600;
+    border: 1px solid #c3c3c3;
+    background: #f9f9f9;
+}
+.sm1waze-taxonomy .form-table td {
+    margin-bottom: 9px;
+    padding: 10px 10px 10px 10px;
+    line-height: 1.3;
+    vertical-align: middle;
+    border: 1px solid #c3c3c3;
+    background: #f9f9f9;
+}
+
+
+.sm1waze-cpt .form-table th {
+    vertical-align: top;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    line-height: 1.3;
+    font-weight: 600;
+    border: 1px solid #c3c3c3;
+    background: #f9f9f9;
+}
+.sm1waze-cpt .form-table td {
+    margin-bottom: 9px;
+    padding: 10px 10px 10px 10px;
+    line-height: 1.3;
+    vertical-align: middle;
+    border: 1px solid #c3c3c3;
+    background: #f9f9f9;
+}
+
+
+.general-settings .form-table .sm1waze_api_key_valid_text.invalid_key {
+    color: red;
+}
+.general-settings .form-table .sm1waze_api_key_valid_text.valid_key {
+    color: green;
+}
+
+

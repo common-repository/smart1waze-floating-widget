@@ -1,0 +1,2 @@
+<label for="enable_sm1waze_widget"><?php _e('Enable Smart1Waze Widget'); ?></label>
+<input type="checkbox" id="enable_sm1waze_widget" name="enable_sm1waze_widget" value="1" <?php checked( $enable_sm1waze_widget, '1' ); ?> />
